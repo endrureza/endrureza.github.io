@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby";
-import Menu from "./menu";
+import React from "react"
+import { Link } from "gatsby"
+import Menu from "./menu"
 
 const Header = () => {
   return (
@@ -10,9 +10,7 @@ const Header = () => {
           <Link to="/" className="logo">
             <span className="size-sm mb-0 font-weight-bold pl-3 text-dark text-left">
               EN
-              <span className="base-color">
-                DRU
-              </span>
+              <span className="base-color">DRU</span>
             </span>
           </Link>
         </div>

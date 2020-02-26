@@ -51,18 +51,15 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                  {/* <div className="row">
+                  <div className="row">
                     <div className="col-12">
+                      <a href="/story" className="pill-button mt-3 mb-lg-0 mr-4">View My CV</a>
                       <a
-                        href="#"
-                        className="pill-button mt-3 mb-lg-0 mr-4"
-                      >Download Cv</a>
-                      <a
-                        href="#"
+                        href="#contact"
                         className="pill-button mt-3 mb-lg-0"
-                      >Send Message</a>
+                      >Drop Me A Message</a>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

@@ -7,15 +7,43 @@ import Helmet from "react-helmet"
 
 const Layout = ({ children }) => {
   useEffect(() => {
-    window.$ = require("jquery")
-    window.jQuery = $
-    require("pagepiling.js")
-    require("bootstrap")
-    window.Typed = require("typed.js")
-    require("jquery-countto")
-    require("../assets/js/isotope.pkgd")
-    require("magnific-popup")
-    require("owl.carousel")
+    
+    if (!window.$ && !window.jQuery) {
+      console.log('init jquery and boostrap')
+      window.$ = require("jquery")
+      window.jQuery = $
+      require("bootstrap")
+    }
+
+    if (typeof pagepiling != 'function') {
+      console.log('pagepiling js')
+      require("pagepiling.js")
+    }
+
+    if (!window.Typed) {
+      console.log('init typed.js')
+      window.Typed = require("typed.js")
+    }
+
+    if (typeof countTo == 'undefined') {
+      console.log('init counto js')
+      require("jquery-countto")
+    }
+
+    if (typeof isotope == 'undefined') {
+      console.log('init isotope js')
+      require("../assets/js/isotope.pkgd")
+    }
+
+    if (typeof magnificPopup == 'undefined') {
+      console.log('init magnificpopup js')
+      require("magnific-popup")
+    }
+
+    if (typeof owlCarousel == 'undefined') {
+      console.log('init owl carousel js')
+      require("owl.carousel")
+    }
 
     /**
      * Activate this if you wanna have loader
@@ -375,42 +403,6 @@ const Layout = ({ children }) => {
     //   })
     //   marker1.setMap(map)
     // }
-
-    /**
-     * This part is for pagepiling
-     */
-    $("#pagepiling").pagepiling({
-      sectionsColor: ["#fff", "#fff", "#fff", "#fff", "#fff"],
-      anchors: ["hero", "about", "education", "experience", "contact"],
-      menu: "#myMenu",
-      direction: "vertical",
-      verticalCentered: true,
-      navigation: {
-        position: "right",
-        tooltips: [
-          "HOME",
-          "ABOUT ME",
-          "EDUCATION",
-          "EXPERIENCE",
-          "GET IN TOUCH",
-        ],
-      },
-      loopBottom: false,
-      loopTop: false,
-      scrollingSpeed: 700,
-      easing: "swing",
-      css3: true,
-      normalScrollElements: null,
-      normalScrollElementTouchThreshold: 5,
-      touchSensitivity: 5,
-      keyboardScrolling: true,
-      sectionSelector: ".section",
-      animateAnchor: true,
-
-      //events
-      afterRender: function() {},
-      afterLoad: function(anchorLink, index) {},
-    })
 
     /**
      * This part is for isotope

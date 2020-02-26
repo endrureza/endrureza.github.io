@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Menu = () => {
   return (
@@ -8,21 +9,21 @@ const Menu = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-8 offset-lg-2 overlay-nav">
-                <ul id="myMenu" className="list-group text-left">
-                  <li className="list-group-item" data-menuanchor="hero">
-                    <a href="#home">Home</a>
+                <ul className="list-group text-left">
+                  <li className="list-group-item">
+                    <a href="/">Home</a>
                   </li>
-                  <li className="list-group-item" data-menuanchor="hero">
-                    <a href="#about">About Me</a>
+                  <li className="list-group-item">
+                    <a href="/story">Story</a>
                   </li>
-                  <li className="list-group-item" data-menuanchor="hero">
-                    <a href="#education">Education</a>
+                  <li className="list-group-item">
+                    <a href="/portofolio">Portofolio</a>
                   </li>
-                  <li className="list-group-item" data-menuanchor="hero">
-                    <a href="#experience">Experience</a>
+                  <li className="list-group-item">
+                    <a href="/services">Services</a>
                   </li>
-                  <li className="list-group-item" data-menuanchor="hero">
-                    <a href="#contact">Get In Touch</a>
+                  <li className="list-group-item">
+                    <a href="/repository">Repository</a>
                   </li>
                 </ul>
                 <ul className="list-group contact-info text-left mb-0">
