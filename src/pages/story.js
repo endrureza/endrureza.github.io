@@ -503,7 +503,7 @@ const StoryPage = () => {
                     <h5>Portfolio</h5>
                   </div>
                   <div className="col-lg-12">
-                    <a href="/repository" className="btn btn-secondary">
+                    <a href="/portfolio" className="btn btn-secondary">
                       View Portfolio
                     </a>
                   </div>

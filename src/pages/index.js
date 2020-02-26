@@ -2,8 +2,6 @@ import React, { useEffect } from "react"
 import Layout from "../components/layout"
 import About from "../components/about"
 import Contact from "../components/contact"
-import Education from "../components/education"
-import Experience from "../components/experience"
 import SEO from "../components/seo"
 
 const IndexPage = () => {
@@ -12,7 +10,7 @@ const IndexPage = () => {
      * This part is for pagepiling
      */
     $("#pagepiling").pagepiling({
-      sectionsColor: ["#fff", "#fff", "#fff", "#fff", "#fff"],
+      sectionsColor: ["#fff", "#fff", "#fff"],
       anchors: ["home", "about", "contact"],
       menu: null,
       direction: "vertical",
