@@ -89,7 +89,6 @@ const StoryPage = () => {
                   <div className="col-lg-12">
                     <div className="text-left">
                       <h2 className="text-dark mb-3">
-                        <i className="lni-graduation base-color"></i>
                         My <span className="base-color">Story</span>
                       </h2>
                       <p className="text-muted">

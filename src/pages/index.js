@@ -13,7 +13,7 @@ const IndexPage = () => {
      */
     $("#pagepiling").pagepiling({
       sectionsColor: ["#fff", "#fff", "#fff", "#fff", "#fff"],
-      anchors: ["home", "about", "education", "experience", "contact"],
+      anchors: ["home", "about", "contact"],
       menu: null,
       direction: "vertical",
       verticalCentered: true,
@@ -22,8 +22,6 @@ const IndexPage = () => {
         tooltips: [
           "HOME",
           "ABOUT ME",
-          "EDUCATION",
-          "EXPERIENCE",
           "GET IN TOUCH",
         ],
       },
@@ -114,8 +112,6 @@ const IndexPage = () => {
         </section>
 
         <About></About>
-        <Education></Education>
-        <Experience></Experience>
         <Contact></Contact>
       </Layout>
     </>

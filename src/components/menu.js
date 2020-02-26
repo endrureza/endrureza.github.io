@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 const Menu = () => {
   return (
@@ -17,7 +16,7 @@ const Menu = () => {
                     <a href="/story">Story</a>
                   </li>
                   <li className="list-group-item">
-                    <a href="/portofolio">Portofolio</a>
+                    <a href="/portfolio">Portfolio</a>
                   </li>
                   <li className="list-group-item">
                     <a href="/services">Services</a>
