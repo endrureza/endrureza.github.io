@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Menu from "./menu"
 
 const Header = () => {
@@ -7,12 +6,12 @@ const Header = () => {
     <>
       <header>
         <div className="logo-area">
-          <Link to="/" className="logo">
+          <a href="/" className="logo">
             <span className="size-sm mb-0 font-weight-bold pl-3 text-dark text-left">
               EN
               <span className="base-color">DRU</span>
             </span>
-          </Link>
+          </a>
         </div>
         <div className="header-info-area">
           <a href="#" className="overlay-menu-toggler lni-menu size-md"></a>
