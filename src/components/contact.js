@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-6 text-left">
                   <h6 className="font-weight-semibold">How can I help you ?</h6>
-                  <form id="contactForm" className="form mt-3">
+                  <form action="https://getform.io/f/5c2de0bb-44f9-45f0-8aff-7f0f42b035f8" method="POST" id="contactForm" className="form mt-3">
                     <div className="row">
                       <div className="col-lg-12 form-item">
                         <div className="form-group">
@@ -96,7 +96,7 @@ const Contact = () => {
                       </div>
                       <div className="col-sm-12 mt-1 text-left">
                         <button
-                          type="button"
+                          type="submit"
                           className="pill-button"
                           id="submit-btn"
                         >
