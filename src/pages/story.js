@@ -130,9 +130,9 @@ const StoryPage = () => {
                     <div className="media">
                       <i className="lni-laptop size-md base-color align-self-center mr-3"></i>
                       <div className="media-body">
-                        <h6 className="font-weight-bold">Actively Looking</h6>
+                        <h6 className="font-weight-bold">Passively Looking</h6>
                         <small className="text-secondary">
-                          I'm actively looking for a job right now
+                          I'm passively looking for a job right now
                         </small>
                       </div>
                     </div>
@@ -256,6 +256,27 @@ const StoryPage = () => {
                           to IT problem. I'm individually improving TD awareness
                           on social world through Facebook, Twitter, Instagram
                           and Youtube. We are located on Beji, Depok, Indonesia.
+                        </p>
+                      </li>
+                      <li>
+                        <h6 className="base-color mb-0">
+                          Backend Engineer at Fabelio
+                        </h6>
+                        <small className="text-muted">
+                          <span className="badge badge-secondary mr-1">
+                            golang
+                          </span>
+                          <span className="badge badge-secondary mr-1">
+                            nodejs
+                          </span>
+                          <span className="badge badge-secondary mr-1">
+                            reactjs
+                          </span>
+                        </small>
+                        <br />
+                        <small className="text-muted">Mar 2020 - Present</small>
+                        <p className="text-dark py-3">
+                          Maintaining fabelio website 3.0
                         </p>
                       </li>
                       <li>
